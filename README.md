@@ -127,8 +127,6 @@ ORDER BY c.content_id ASC;
 
 ## 🧠 6. Theoretical Concepts (The "Why?")
 
-This section addresses key database principles applied in this exercise.
-
 ---
 
 ### Why #1: Why Do We Use Foreign Keys?
@@ -143,7 +141,7 @@ This section addresses key database principles applied in this exercise.
 
 | Property | Stands For | Importance to StreamFlix |
 | :--- | :--- | :--- |
-| **A** | **A**tomicity | It prevents incomplete operations. This ensures that the database is never left in a hal-updated or corrupted state. |
+| **A** | **A**tomicity | It prevents incomplete operations. This ensures that the database is never left in a half-updated or corrupted state. |
 | **C** | **C**onsistency |It prevents conflicts during simultaneous operations. Multiple users may be streaming, updating views, inserting shows or adding analytics queries. Isoltaion ensures these actions don't interfere with each other, preventing dirty reads or incorrect results. |
 | **I** | **I**solation | Prevents conflicts when multiple operations occur simultaneously (e.g., users inserting new content while analysts query view counts). |
 | **D** | **D**urability |It means the data survives crashes or failures. If a power cut or server crash happens right after insering a new show or updating views, durability ensures that changes are permanently saved. |
