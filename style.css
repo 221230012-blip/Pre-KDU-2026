@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #6a5acd, #7b68ee);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-wrapper {
+    padding: 20px;
+}
+
+.timer-card {
+    background: white;
+    width: 360px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.time-display {
+    font-size: 56px;
+    font-weight: 700;
+    color: #6a7dfc;
+    margin: 25px 0;
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.start {
+    background: linear-gradient(135deg, #6a5acd, #836fff);
+}
+
+.pause {
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+}
+
+.reset {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* Custom Timer */
+.custom-box {
+    background: #f5f6fa;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.custom-box h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.custom-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-controls input {
+    width: 70px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.custom-controls button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #2ed573;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Sessions */
+.sessions-box {
+    background: linear-gradient(135deg, #ffe0c3, #ffc8a2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sessions-box h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.sessions-count {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-top: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-wrapper">
+    <div class="timer-card">
+
+        <h1 class="title">⏱ Focus Timer</h1>
+        <p class="subtitle">Stay productive with the Pomodoro technique!</p>
+
+        <div class="time-display" id="timeDisplay">25:00</div>
+
+        <div class="controls">
+            <button class="btn start" id="startBtn">▶ START</button>
+            <button class="btn pause" id="pauseBtn">⏸ PAUSE</button>
+            <button class="btn reset" id="resetBtn">🔄 RESET</button>
+        </div>
+
+        <div class="custom-box">
+            <h3>⚙ Customize Your Timer</h3>
+            <div class="custom-controls">
+                <input type="number" id="customMinutes" value="25" min="1" max="60">
+                <button id="setTimerBtn">SET TIMER</button>
+            </div>
+        </div>
+
+        <div class="sessions-box">
+            <h3>🎯 Sessions Completed</h3>
+            <div class="sessions-count" id="sessionsCount">0</div>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
